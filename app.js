@@ -25,7 +25,6 @@ readAll('./logs/')
 .catch(err => console.error(err));
 
 //№3
-/*
 const pathInfo = require('./path-info');
 
 function showInfo(err, info) {
@@ -52,4 +51,4 @@ function showInfo(err, info) {
 }
 
 pathInfo(__dirname, showInfo);
-pathInfo(__filename, showInfo);*/
+pathInfo(__filename, showInfo);
